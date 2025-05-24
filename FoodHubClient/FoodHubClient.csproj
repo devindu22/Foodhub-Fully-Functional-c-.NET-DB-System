@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{754CD5A0-4E96-4284-A7E3-9FE7908006D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoodHubClient</RootNamespace>
+    <AssemblyName>FoodHubClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculatorForm.Designer.cs">
+      <DependentUpon>CalculatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDashboardForm.Designer.cs">
+      <DependentUpon>CustomerDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodhubDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodhubDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IngredientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngredientsForm.Designer.cs">
+      <DependentUpon>IngredientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemEntryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemEntryForm.Designer.cs">
+      <DependentUpon>ItemEntryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationForm.Designer.cs">
+      <DependentUpon>LocationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCustomersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCustomersForm.Designer.cs">
+      <DependentUpon>ManageCustomersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDependentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDependentForm.Designer.cs">
+      <DependentUpon>ManageDependentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotorbikeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotorbikeForm.Designer.cs">
+      <DependentUpon>MotorbikeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEntryForm.Designer.cs">
+      <DependentUpon>OrderEntryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderHistoryForm.Designer.cs">
+      <DependentUpon>OrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderItemForm.Designer.cs">
+      <DependentUpon>OrderItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileForm.Designer.cs">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportGenerationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGenerationForm.Designer.cs">
+      <DependentUpon>ReportGenerationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderAssignmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderAssignmentForm.Designer.cs">
+      <DependentUpon>RiderAssignmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderDashboardForm.Designer.cs">
+      <DependentUpon>RiderDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderDeliverySummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderDeliverySummaryForm.Designer.cs">
+      <DependentUpon>RiderDeliverySummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderProfileForm.Designer.cs">
+      <DependentUpon>RiderProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffForm.Designer.cs">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeleForm.Designer.cs">
+      <DependentUpon>TeleForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CalculatorForm.resx">
+      <DependentUpon>CalculatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDashboardForm.resx">
+      <DependentUpon>CustomerDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngredientsForm.resx">
+      <DependentUpon>IngredientsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemEntryForm.resx">
+      <DependentUpon>ItemEntryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationForm.resx">
+      <DependentUpon>LocationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCustomersForm.resx">
+      <DependentUpon>ManageCustomersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDependentForm.resx">
+      <DependentUpon>ManageDependentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotorbikeForm.resx">
+      <DependentUpon>MotorbikeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntryForm.resx">
+      <DependentUpon>OrderEntryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderHistoryForm.resx">
+      <DependentUpon>OrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderItemForm.resx">
+      <DependentUpon>OrderItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileForm.resx">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportGenerationForm.resx">
+      <DependentUpon>ReportGenerationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderAssignmentForm.resx">
+      <DependentUpon>RiderAssignmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderDashboardForm.resx">
+      <DependentUpon>RiderDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderDeliverySummaryForm.resx">
+      <DependentUpon>RiderDeliverySummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderProfileForm.resx">
+      <DependentUpon>RiderProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm.resx">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeleForm.resx">
+      <DependentUpon>TeleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App1.config" />
+    <None Include="FoodhubDataSet.xsc">
+      <DependentUpon>FoodhubDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet.xss">
+      <DependentUpon>FoodhubDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet1.xsc">
+      <DependentUpon>FoodhubDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet1.xss">
+      <DependentUpon>FoodhubDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet10.xsc">
+      <DependentUpon>FoodhubDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet10.xss">
+      <DependentUpon>FoodhubDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet11.xsc">
+      <DependentUpon>FoodhubDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet11.xss">
+      <DependentUpon>FoodhubDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet12.xsc">
+      <DependentUpon>FoodhubDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet12.xss">
+      <DependentUpon>FoodhubDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet13.xsc">
+      <DependentUpon>FoodhubDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet13.xss">
+      <DependentUpon>FoodhubDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet14.xsc">
+      <DependentUpon>FoodhubDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet14.xss">
+      <DependentUpon>FoodhubDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet15.xsc">
+      <DependentUpon>FoodhubDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet15.xss">
+      <DependentUpon>FoodhubDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet16.xsc">
+      <DependentUpon>FoodhubDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet16.xss">
+      <DependentUpon>FoodhubDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet17.xsc">
+      <DependentUpon>FoodhubDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet17.xss">
+      <DependentUpon>FoodhubDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet18.xsc">
+      <DependentUpon>FoodhubDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet18.xss">
+      <DependentUpon>FoodhubDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet19.xsc">
+      <DependentUpon>FoodhubDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet19.xss">
+      <DependentUpon>FoodhubDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet2.xsc">
+      <DependentUpon>FoodhubDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet2.xss">
+      <DependentUpon>FoodhubDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet3.xsc">
+      <DependentUpon>FoodhubDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet3.xss">
+      <DependentUpon>FoodhubDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet4.xsc">
+      <DependentUpon>FoodhubDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet4.xss">
+      <DependentUpon>FoodhubDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet5.xsc">
+      <DependentUpon>FoodhubDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet5.xss">
+      <DependentUpon>FoodhubDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet6.xsc">
+      <DependentUpon>FoodhubDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet6.xss">
+      <DependentUpon>FoodhubDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet7.xsc">
+      <DependentUpon>FoodhubDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet7.xss">
+      <DependentUpon>FoodhubDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet8.xsc">
+      <DependentUpon>FoodhubDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet8.xss">
+      <DependentUpon>FoodhubDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet9.xsc">
+      <DependentUpon>FoodhubDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="FoodhubDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodhubDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodhubDataSet9.xss">
+      <DependentUpon>FoodhubDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White &amp; Grey Clean Grid Personal Moodboard Photo Collage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FoodhubIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-05-17 135942.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foodhub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foodhub1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canva-cream-and-black-minimalist-cafe-menu-PnXx0aP6HOI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original-d6f1789af6de825fa0d56e4f84b4feab.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
