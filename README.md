@@ -1,4 +1,4 @@
-# Foodhub-Fully-Functional-c-.NET-DB-System
+# Foodhub Delivery and Order Management System
 
 FoodHub Company is a well-known fast food company locate in United State of America. 
 It was started 14 years ago & the company management decided to open branches 
