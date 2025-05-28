@@ -1,0 +1,42 @@
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\bin\Debug\FoodHubClient.exe.config
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\bin\Debug\FoodHubClient.exe
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\bin\Debug\FoodHubClient.pdb
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.csprojResolveAssemblyReference.cache
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.LoginForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.Properties.Resources.resources
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.csproj.GenerateResource.Cache
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.exe
+C:\Users\Devindu Malshan\Desktop\HND\Programming\Lesson\Practicals - C#\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.pdb
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\bin\Debug\FoodHubClient.exe.config
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.exe
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.pdb
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\bin\Debug\FoodHubClient.exe
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\bin\Debug\FoodHubClient.pdb
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.csprojResolveAssemblyReference.cache
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.MainForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.LoginForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.Properties.Resources.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.csproj.GenerateResource.Cache
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.ManageCustomersForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.OrderEntryForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.ManageDependentForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.CustomerDashboardForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.RiderDashboardForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.StaffForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.TeleForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.OrderHistoryForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.ProfileForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.MenuForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.RiderAssignmentForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.RiderDeliverySummaryForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.ReportGenerationForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.RiderProfileForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.IngredientsForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.LocationForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.MotorbikeForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.CalculatorForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.OrderItemForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.ItemEntryForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.OrderStatusUpdateForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.IngredientEntryForm.resources
+C:\Users\Devindu Malshan\Desktop\HND\DBMS\Assignment\Assignment 2\FoodHubClient\FoodHubClient\obj\Debug\FoodHubClient.MenuItemEntryForm.resources
