@@ -18,6 +18,10 @@ https://forms.gle/TiFGHJTQpe2u5aZW7
 
 https://drive.google.com/file/d/17z1uXmrSUjuCxHeqy3l0ePJip4Z2hcqW/view?usp=sharing 
 
+### System Demonstration Powerpoint
+
+[FoodHub System Demo.pdf](https://github.com/user-attachments/files/20642359/FoodHub.System.Demo.pdf)
+
 ### Live Demo
 
 https://youtu.be/YdkLr1PNMP8
